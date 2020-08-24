@@ -1,10 +1,17 @@
 import React from "react";
-import './Navigation.css'
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <div>
-    <h1>Nav</h1>
+    <div className="navigation">
+      <div>
+        <h1>Will Tidwell</h1>
+      </div>
+    <div className="links">
+      <h3>Home</h3>
+      <h3>About</h3>
+    </div>
+
     </div>
   );
 };
