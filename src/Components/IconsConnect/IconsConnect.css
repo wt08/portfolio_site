@@ -1,0 +1,11 @@
+.iconsConnect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.icon {
+  font-size: 50px;
+  color: #14213d;
+}

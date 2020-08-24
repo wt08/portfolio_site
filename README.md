@@ -1,2 +1,2 @@
 ## Libraries
-Bootstrap
+Font Awesome
