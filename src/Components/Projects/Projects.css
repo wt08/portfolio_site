@@ -1,0 +1,16 @@
+.projects {
+    display: flex;
+}
+
+.card1 {
+    height: 350px;
+    width: 300px;
+    background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1597842496/capstone/Screen_Shot_2020-08-19_at_9.06.18_AM_a11b6j.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card2 {
+    
+}
