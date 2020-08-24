@@ -1,9 +1,13 @@
 .menu {
-  display: flex;
+  display: none;
 }
 
-.menu h3 {
-  padding: 5px;
+.show {
+  display: block;
   color: #14213d;
   font-family: "Catamaran", sans-serif;
+}
+
+.show p {
+  cursor: pointer;
 }

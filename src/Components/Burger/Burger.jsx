@@ -1,5 +1,5 @@
 import React from "react";
-import './Burger.css'
+import "./Burger.css";
 
 const Burger = ({menuOpen, setMenuOpen}) => {
   return (

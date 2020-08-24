@@ -1,0 +1,26 @@
+.expandNav {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .expandNav h1 {
+    color: #14213d;
+    font-family: "Catamaran", sans-serif;
+  }
+
+  .expandNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 0 15px;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .links h3 {
+    padding: 5px;
+    color: #14213d;
+    font-family: "Catamaran", sans-serif;
+  }
+}

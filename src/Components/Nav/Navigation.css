@@ -1,20 +1,4 @@
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 15px 0 15px;
-}
 
-.navigation h1 {
-  color: #14213d;
-  font-family: "Catamaran", sans-serif;
-}
 
-.links {
-  display: flex;
-}
 
-.navigaton h3 {
-  padding: 5px;
-  color: #14213d;
-  font-family: "Catamaran", sans-serif;
-}
+
