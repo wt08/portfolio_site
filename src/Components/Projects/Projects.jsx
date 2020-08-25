@@ -4,8 +4,11 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="projects">
-      <div className="card1"></div>
-      <div className="card2"></div>
+      <h2>Projects:</h2>
+      <div className="projectsList">
+        <div className="card1"></div>
+        <div className="card2"></div>
+      </div>
     </div>
   );
 };
