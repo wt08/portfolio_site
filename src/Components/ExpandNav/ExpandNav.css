@@ -22,5 +22,27 @@
     padding: 5px;
     color: white;
     font-family: "Catamaran", sans-serif;
+    position: relative;
+  }
+
+  .links h3:after {
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: #fca311;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    transform-origin: right bottom;
+    transform: scaleX(0);
+    transition: transform 0.4s linear;
+  }
+
+  .links h3:hover:after,
+  .links h3:active:after {
+    transform: scaleX(1);
+    transform-origin: left bottom;
+    transition: transform 0.4s linear;
   }
 }
