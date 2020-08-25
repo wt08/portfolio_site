@@ -1,11 +1,11 @@
-.homepage {
+.main {
     display: flex;
     flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
 
-.homepage {
+.main {
     display: flex;
     flex-direction: row;
     height: 100vh;

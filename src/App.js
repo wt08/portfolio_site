@@ -1,15 +1,14 @@
 import React from "react";
 import "./App.css";
-import Navigation from "./Components/Nav/Navigation";
 import Homepage from "./Components/Homepage/Homepage";
-
-
+import { Route } from "react-router-dom";
+import About from "./Components/About/About";
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <Homepage />
+      <Route exact path="/" component={Homepage} />
+      <Route path="/about" component={About} />
     </div>
   );
 }

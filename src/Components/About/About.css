@@ -1,0 +1,42 @@
+.about {
+  height: 100vh;
+}
+
+img {
+  height: 400px;
+  margin: 20px;
+}
+
+.infoAbout {
+  padding: 10px;
+  color: white;
+  font-family: "Catamaran", sans-serif;
+}
+
+.logosAbout h4 {
+  color: #fca311;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Catamaran", sans-serif;
+}
+
+.logosAbout img {
+  height: 40px;
+}
+
+.logosAbout .icon {
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+}
+
+.logosIcons {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .mainAbout {
+    display: flex;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./ExpandNav.css";
+import {Link} from "react-router-dom"
 
 const ExpandNav = () => {
   return (
@@ -9,9 +10,9 @@ const ExpandNav = () => {
       </div>
       <div className="links">
         
-          <h3>Home</h3>
+          <Link to="/"><h3>Home</h3></Link>
       
-          <h3>About</h3>
+          <Link to="/about"><h3>About</h3></Link>
         
       </div>
     </div>

@@ -23,6 +23,7 @@
     color: white;
     font-family: "Catamaran", sans-serif;
     position: relative;
+    cursor: pointer;
   }
 
   .links h3:after {
