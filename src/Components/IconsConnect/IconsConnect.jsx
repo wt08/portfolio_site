@@ -9,9 +9,9 @@ import './IconsConnect.css'
 const IconsConnect = () => {
   return (
     <div className="iconsConnect">
-      <FontAwesomeIcon icon={faGithubSquare} className="icon"/>
-      <FontAwesomeIcon icon={faLinkedin} className="icon"/>
-      <FontAwesomeIcon icon={faEnvelopeOpenText} className="icon"/>
+      <a href="https://github.com/wt08" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithubSquare} className="icon"/></a>
+      <a href="https://www.linkedin.com/in/will-tidwell/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="icon"/></a>
+      <a href="mailto:willtomtid@gmail.com" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelopeOpenText} className="icon"/></a>
     </div>
   );
 };
