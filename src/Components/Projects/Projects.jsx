@@ -7,11 +7,20 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="projectsList">
         <div className="card1">
-          <h4>Sourced: Charleston</h4>
-          <h4>React Web App</h4>
+          <div className="text">
+            <h4>Sourced: Charleston</h4>
+          </div>
         </div>
-        <div className="card2"></div>
-        <div className="card3"></div>
+        <div className="card2">
+          <div className="text">
+            <h4>Artist Compare</h4>
+          </div>
+        </div>
+        <div className="card3">
+          <div className="text">
+            <h4>Forgotten</h4>
+          </div>
+        </div>
       </div>
     </div>
   );
