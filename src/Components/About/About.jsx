@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../Navigation/Navigation";
 import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJsSquare, faCss3 } from "@fortawesome/free-brands-svg-icons";
+import { faJsSquare } from "@fortawesome/free-brands-svg-icons";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 
@@ -13,7 +13,7 @@ const About = () => {
       <div className="mainAbout">
         <img
           src="https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598397683/GA%20-%20Project%201/IMG_0324_xhl175.jpg"
-          alt="photo of Will Tidwell"
+          alt="Will Tidwell"
         />
         <div className="infoAbout">
           <p>

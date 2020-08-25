@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navigation.css";
 import ExpandNav from "../ExpandNav/ExpandNav";
 import CollapseNav from "../CollapseNav/CollapseNav";
