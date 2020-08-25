@@ -25,6 +25,9 @@
   background-size: cover;
   border-radius: 10px;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card2 {
@@ -46,5 +49,11 @@
   background-position-y: 0;
   background-size: cover;
   border-radius: 10px;
+  margin: 10px;
+}
+
+.projects h4 {
+  background-color: #E5E5E5;
+  text-align: center;
   margin: 10px;
 }
