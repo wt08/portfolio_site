@@ -6,12 +6,12 @@
   align-items: center;
 }
 
-.icon {
+.iconsConnect .icon {
   font-size: 30px;
   color: #E5E5E5;
   transition: all .5s;
 }
 
-.icon:hover {
+.iconsConnect .icon:hover {
   color: #fca311;
 }

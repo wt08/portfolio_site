@@ -1,12 +1,20 @@
 import React from "react";
 import "./Menu.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Menu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className={`menu ${menuOpen ? "show" : ""}`}>
-      <p onClick={() => setMenuOpen(!menuOpen)}>X</p>
-      <h3>Home</h3>
-      <h3>About</h3>
+      <FontAwesomeIcon
+        icon={faTimesCircle}
+        className="icon"
+        onClick={() => setMenuOpen(!menuOpen)}
+      />
+      <br />
+      <h3 className="menuItem">Home</h3>
+      <br />
+      <h3 className="menuItem">About</h3>
     </div>
   );
 };
