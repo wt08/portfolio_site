@@ -1,11 +1,12 @@
-## Portfolio Site
+# Portfolio Site
+[Live Site](https://will-tidwell.netlify.app/#/)
 
-# Description
+## Description
 Responsive React site to display my web development projects.
 
-# Frameworks/Libraries
+## Frameworks/Libraries
 React
 Font Awesome
 
-# Authors
+## Authors
 Will Tidwell
