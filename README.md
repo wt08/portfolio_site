@@ -5,7 +5,7 @@
 Responsive React site to display my web development projects.
 
 ## Frameworks/Libraries
-React
+React  
 Font Awesome
 
 ## Authors
