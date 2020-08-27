@@ -9,8 +9,8 @@
 }
 
 .card1 {
-  height: 350px;
-  width: 300px;
+  height: 300px;
+  width: 250px;
   background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1597842496/capstone/Screen_Shot_2020-08-19_at_9.06.18_AM_a11b6j.png");
   background-position: center;
   background-size: cover;
@@ -18,18 +18,17 @@
   margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  cursor: pointer;
 }
 
 .card1:hover .text {
-  opacity: 0;
+  opacity: 1;
 }
 
 .card2 {
-  height: 350px;
-  width: 300px;
+  height: 300px;
+  width: 250px;
   background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598313501/Screen_Shot_2020-08-24_at_7.57.44_PM_d1oscg.png");
   background-position: center;
   background-position-y: 20px;
@@ -38,18 +37,17 @@
   margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  cursor: pointer;
 }
 
 .card2:hover .text {
-  opacity: 0;
+  opacity: 1;
 }
 
 .card3 {
-  height: 350px;
-  width: 300px;
+  height: 300px;
+  width: 250px;
   background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598373912/Screen_Shot_2020-08-25_at_12.40.43_PM_aplgfl.png");
   background-position: center;
   background-position-y: 0;
@@ -58,13 +56,12 @@
   margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  cursor: pointer;
 }
 
 .card3:hover .text {
-  opacity: 0;
+  opacity: 1;
 }
 
 .text {
@@ -73,17 +70,22 @@
   justify-content: left;
   background-color: rgba(255,255,255,.75);
   text-align: center;
-  height: 100%;
+  height: 60%;
   width: 100%;
   border-radius: 10px;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   transition: opacity 300ms ease-in-out;
   padding-top: 10px;
+  opacity: 0;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
