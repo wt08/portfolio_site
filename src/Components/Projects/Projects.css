@@ -2,16 +2,6 @@
   width: 100%;
 }
 
-.projects h2 {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  text-align: left;
-  margin-bottom: 40px;
-  margin-left: 10px;
-  text-decoration: underline;
-  text-decoration-color: #fca311;
-}
-
 .projectsList {
   display: flex;
   flex-wrap: wrap;

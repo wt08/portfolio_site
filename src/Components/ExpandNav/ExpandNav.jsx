@@ -10,7 +10,7 @@ const ExpandNav = () => {
       </div>
       <div className="links">
         
-          <Link to="/"><h3>Home</h3></Link>
+          <Link to="/"><h3>Projects</h3></Link>
       
           <Link to="/about"><h3>About</h3></Link>
         

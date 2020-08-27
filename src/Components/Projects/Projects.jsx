@@ -4,7 +4,6 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="projects">
-      <h2>Projects</h2>
       <div className="projectsList">
         <a href="https://sourced-charleston.netlify.app/#/" target="_blank" rel="noopener noreferrer"> 
           <div className="card1">
