@@ -7,6 +7,7 @@ const ExpandNav = () => {
     <div className="expandNav">
       <div>
         <h1>Will Tidwell</h1>
+        <h4>Software Developer</h4>
       </div>
       <div className="links">
         

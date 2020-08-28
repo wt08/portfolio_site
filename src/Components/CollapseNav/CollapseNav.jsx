@@ -9,7 +9,8 @@ const CollapseNav = () => {
 
   return (
     <div className="collapseNav">
-      <h1>Will Tidwell</h1>
+      <h1>Will Tidwell</h1> 
+      <h4>Software Developer</h4>
       <Burger menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     </div>
