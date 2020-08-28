@@ -3,6 +3,7 @@ import IconsConnect from "../IconsConnect/IconsConnect";
 import Projects from "../Projects/Projects";
 import "./Homepage.css";
 import Navigation from "../Navigation/Navigation";
+import Footer from '../Footer/Footer'
 
 const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ const Homepage = () => {
         <IconsConnect />
         <Projects />
       </div>
+      <Footer />
     </div>
   );
 };

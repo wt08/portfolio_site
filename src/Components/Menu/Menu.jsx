@@ -13,7 +13,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
         onClick={() => setMenuOpen(!menuOpen)}
       />
       <br />
-      <Link to="/"><h3 className="menuItem">Home</h3></Link>
+      <Link to="/"><h3 className="menuItem">Projects</h3></Link>
       <br />
       <Link to="/about"><h3 className="menuItem">About</h3></Link>
     </div>

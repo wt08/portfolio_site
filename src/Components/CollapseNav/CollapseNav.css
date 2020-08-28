@@ -3,8 +3,12 @@
 }
 
 .collapseNav h1 {
-    color: white;
-    font-family: "Catamaran", sans-serif;
+    color: #023E7D;
+    font-family: 'Russo One', sans-serif;
+  }
+
+  .collapseNav h4 {
+    color: #023E7D;
   }
 
 @media only screen and (min-width: 768px) {
