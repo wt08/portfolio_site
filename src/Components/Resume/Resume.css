@@ -1,0 +1,9 @@
+.resume {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.resumeImage {
+    height: 900px;
+}

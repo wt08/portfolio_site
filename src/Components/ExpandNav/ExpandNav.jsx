@@ -1,6 +1,6 @@
 import React from "react";
 import "./ExpandNav.css";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const ExpandNav = () => {
   return (
@@ -10,11 +10,15 @@ const ExpandNav = () => {
         <h4>Software Developer</h4>
       </div>
       <div className="links">
-        
-          <Link to="/"><h3>Projects</h3></Link>
-      
-          <Link to="/about"><h3>About</h3></Link>
-        
+        <Link to="/">
+          <h3>Projects</h3>
+        </Link>
+        <Link to="/resume">
+          <h3>Resume</h3>
+        </Link>
+        <Link to="/about">
+          <h3>About</h3>
+        </Link>
       </div>
     </div>
   );
