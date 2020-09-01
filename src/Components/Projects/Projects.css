@@ -4,45 +4,17 @@
 
 .projectsList {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-around;
 }
 
-.card1 {
-  height: 300px;
-  width: 250px;
-  background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1597842496/capstone/Screen_Shot_2020-08-19_at_9.06.18_AM_a11b6j.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-  margin: 10px;
+.projectContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  width: 100%;
 }
 
-.card1:hover .text {
-  opacity: 1;
-}
-
-.card2 {
-  height: 300px;
-  width: 250px;
-  background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598313501/Screen_Shot_2020-08-24_at_7.57.44_PM_d1oscg.png");
-  background-position: center;
-  background-position-y: 20px;
-  background-size: cover;
-  border-radius: 10px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.card2:hover .text {
-  opacity: 1;
+.projectsList img {
+    width: 60%;
 }
 
 .card3 {
@@ -60,25 +32,8 @@
   align-items: center;
 }
 
-.card3:hover .text {
-  opacity: 1;
-}
-
 .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  background-color: rgba(255,255,255,.75);
-  text-align: center;
-  height: 60%;
-  width: 100%;
-  border-radius: 10px;
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  transition: opacity 300ms ease-in-out;
-  padding-top: 10px;
-  opacity: 0;
+
 }
 
 a {

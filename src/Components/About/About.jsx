@@ -16,8 +16,8 @@ const About = () => {
           src="https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598397683/GA%20-%20Project%201/IMG_0324_xhl175.jpg"
           alt="Will Tidwell"
         />
-        <div className="infoAbout">
-          <p>
+        <div >
+          <p className="infoAbout">
             <span className="name">Hi, I'm Will, </span>
             <br />a Charleston, SC based software developer. I have a background
             in client relations and can bring a skillset that will creatively

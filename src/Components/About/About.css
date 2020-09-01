@@ -7,20 +7,22 @@
   margin: 20px;
 }
 
-.name {
-  font-size: 30px;
-}
-
 .infoAbout {
   padding: 20px;
-  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 30px;
 }
 
 .logosAbout h4 {
   color: black;
   font-size: 20px;
   padding: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logosIcons {

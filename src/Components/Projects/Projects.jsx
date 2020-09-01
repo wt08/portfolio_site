@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="projectsList">
-        <div className="card1">
+        <div className="projectContainer">
           <div className="text">
             <h3>Sourced: Charleston</h3>
             <br />
@@ -25,9 +25,17 @@ const Projects = () => {
               <p>Github</p>{" "}
             </a>
           </div>
+          <img
+            src="https://res.cloudinary.com/dgbf3yxnd/image/upload/v1597842496/capstone/Screen_Shot_2020-08-19_at_9.06.18_AM_a11b6j.png"
+            alt="Sourced: Charleston App homepage"
+          />
         </div>
 
-        <div className="card2">
+        <div className="projectContainer">
+          <img
+            src="https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598313501/Screen_Shot_2020-08-24_at_7.57.44_PM_d1oscg.png"
+            alt="Artist Compare App homepage"
+          />
           <div className="text">
             <h3>Artist Compare</h3>
             <br />
@@ -49,7 +57,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="card3">
+        <div className="projectContainer">
           <div className="text">
             <h3>Forgotten</h3>
             <br />
@@ -62,7 +70,9 @@ const Projects = () => {
               <p>Github</p>{" "}
             </a>
           </div>
+          <img src="https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598373912/Screen_Shot_2020-08-25_at_12.40.43_PM_aplgfl.png" alt="Forgotten App homepage"/>
         </div>
+
       </div>
     </div>
   );
