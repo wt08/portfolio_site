@@ -115,6 +115,8 @@ const Projects = () => {
               A mobile app that helps users track borrowed/lent items. 
               <br/>
               Currently not on any app stores, but Github repo found below.
+              <br/>
+              Built in an AGILE development team.
             </p>
             <br />
             <p>ReactJS frontend. Ruby on Rails server.</p>
