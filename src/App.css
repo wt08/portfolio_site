@@ -3,7 +3,9 @@
 
 
 .App {
-  background-color: white;
+  /* background: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598997366/christopher-rusev-Fs_Ed1Mf_Oo-unsplash_slujrt.jpg"); */
+  background-position: center;
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
