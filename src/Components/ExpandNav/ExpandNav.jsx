@@ -11,13 +11,10 @@ const ExpandNav = () => {
       </div>
       <div className="links">
         <Link to="/">
-          <h3>Projects</h3>
+          <h3>Home</h3>
         </Link>
         <Link to="/resume">
           <h3>Resume</h3>
-        </Link>
-        <Link to="/about">
-          <h3>About</h3>
         </Link>
       </div>
     </div>
