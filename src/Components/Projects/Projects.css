@@ -4,88 +4,100 @@
 
 .projectsList {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.card1 {
-  height: 300px;
-  width: 250px;
-  background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1597842496/capstone/Screen_Shot_2020-08-19_at_9.06.18_AM_a11b6j.png");
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-  margin: 10px;
-  display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
 }
 
-.card1:hover .text {
-  opacity: 1;
-}
-
-.card2 {
-  height: 300px;
-  width: 250px;
-  background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598313501/Screen_Shot_2020-08-24_at_7.57.44_PM_d1oscg.png");
-  background-position: center;
-  background-position-y: 20px;
-  background-size: cover;
-  border-radius: 10px;
-  margin: 10px;
+.projectContainer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
+  width: 100%;
+  margin-top: 70px;
 }
 
-.card2:hover .text {
-  opacity: 1;
+.projectContainer a {
+  text-align: center;
 }
 
-.card3 {
-  height: 300px;
-  width: 250px;
-  background-image: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598373912/Screen_Shot_2020-08-25_at_12.40.43_PM_aplgfl.png");
-  background-position: center;
-  background-position-y: 0;
-  background-size: cover;
-  border-radius: 10px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+.projectContainer img {
+  width: 90%;
 }
 
-.card3:hover .text {
-  opacity: 1;
+.artistCompareImg {
+  border: .5px solid lightgray;
+}
+
+.expand {
+  display: none;
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  background-color: rgba(255,255,255,.75);
-  text-align: center;
-  height: 60%;
-  width: 100%;
-  border-radius: 10px;
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  transition: opacity 300ms ease-in-out;
-  padding-top: 10px;
-  opacity: 0;
+  margin: 30px;
 }
 
-a {
+.text h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+.text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.text a {
+  text-align: left;
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+.text a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .projectContainer {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .expand {
+    display: block;
+  }
+
+  .expand {
+    margin: 30px;
+  }
+
+  .expand h3 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  .expand p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+
+  .expand a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+  }
+
+  .expand a:hover {
+    text-decoration: underline;
+  }
+
+.forgottenText {
+  margin-right: 125px;
+}
+
 }

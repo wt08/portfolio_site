@@ -7,7 +7,7 @@
   width: 100%;
   border-radius: 5px;
   background-color: #f7f9fb;
-  box-shadow: 5px 5px #023e7d;
+  box-shadow: 5px 5px black;
 }
 
 .show .icon {
@@ -20,16 +20,16 @@
 .menuItem {
   display: inline-block;
   color: #979dac;
-  font-family: "Catamaran", sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   cursor: pointer;
   margin: 20px 0 20px 20px;
 }
 
 .show .icon:hover {
-  color: #023e7d;
+  color: black;
 }
 
 .menuItem:hover {
-  color: #023e7d;
+  color: black;
 }

@@ -2,35 +2,38 @@
   display: none;
 }
 
-.expandNav h4 {
-  color: #023e7d;
-}
-
 @media only screen and (min-width: 768px) {
-  .expandNav h1 {
-    color: #023e7d;
-    font-family: "Russo One", sans-serif;
-  }
-
   .expandNav {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px 0 15px;
   }
 
+  .expandNav h1 {
+    font-family: "Russo One", sans-serif;
+  }
+
+  .expandNav h4 {
+    font-family: "Roboto", sans-serif;
+  }
+
   .links {
     display: flex;
+  }
+
+  .links a {
+    text-decoration: none;
   }
 
   .links h3 {
     padding: 5px;
     color: #979dac;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     position: relative;
     cursor: pointer;
   }
 
   .links h3:hover {
-    color: #023e7d;
+    color: black;
   }
 }

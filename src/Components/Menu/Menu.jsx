@@ -14,15 +14,11 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
       />
       <br />
       <Link to="/">
-        <h3 className="menuItem">Projects</h3>
+        <h3 className="menuItem">Home</h3>
       </Link>
       <br />
       <Link to="/resume">
         <h3 className="menuItem">Resume</h3>
-      </Link>
-      <br />
-      <Link to="/about">
-        <h3 className="menuItem">About</h3>
       </Link>
     </div>
   );
