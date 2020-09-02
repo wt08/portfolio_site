@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Russo+One&display=swap");
 
 .App {
-  /* photo props via Christopher Rusev on unsplashed https://unsplash.com/photos/Fs_Ed1Mf_Oo */
+  /* photo creds to Christopher Rusev on unsplashed https://unsplash.com/photos/Fs_Ed1Mf_Oo */
   background: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598997366/christopher-rusev-Fs_Ed1Mf_Oo-unsplash_slujrt.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -9,11 +9,3 @@
   width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-  .App {
-    background-position-x: -30px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-}
