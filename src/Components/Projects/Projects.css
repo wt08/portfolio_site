@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 200px;
 }
 
 .projectContainer a {
@@ -25,7 +25,7 @@
 }
 
 .artistCompareImg {
-  border: .5px solid lightgray;
+  border: 0.5px solid lightgray;
 }
 
 .expand {
@@ -34,6 +34,8 @@
 
 .text {
   margin: 30px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
 }
 
 .text h3 {
@@ -96,8 +98,7 @@
     text-decoration: underline;
   }
 
-.forgottenText {
-  margin-right: 125px;
-}
-
+  .forgottenText {
+    margin-right: 125px;
+  }
 }

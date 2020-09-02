@@ -1,6 +1,6 @@
 import React from "react";
 import "./ExpandNav.css";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const ExpandNav = () => {
   return (
@@ -12,6 +12,9 @@ const ExpandNav = () => {
       <div className="links">
         <Link to="/">
           <h3>Home</h3>
+        </Link>
+        <Link to="/#iconsConnect">
+          <h3>Connect</h3>
         </Link>
         <Link to="/resume">
           <h3>Resume</h3>

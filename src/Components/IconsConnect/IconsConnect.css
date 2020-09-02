@@ -1,25 +1,20 @@
-.iconsConnect {
+#iconsConnect {
   display: flex;
   justify-content: space-around;
 }
-
-.iconsConnect .icon {
-  font-size: 30px;
-  color: #979DAC;
-  transition: all .5s;
-  margin-top: 50px;
+#iconsConnect .icon {
+  font-size: 50px;
+  color: black;
+  transition: all 0.5s;
+  margin-top: 200px;
   margin-bottom: 50px;
 }
-
-.iconsConnect .icon:hover {
-  color: black;
+#iconsConnect .icon:hover {
+  text-decoration: underline;
 }
-
 
 @media only screen and (min-width: 768px) {
-
-.iconsConnect {
- justify-content: space-around;
-}
-
+  #iconsConnect {
+    justify-content: space-around;
+  }
 }

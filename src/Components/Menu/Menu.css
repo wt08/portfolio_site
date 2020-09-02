@@ -6,8 +6,8 @@
   display: block;
   width: 100%;
   border-radius: 5px;
-  background-color: #f7f9fb;
-  box-shadow: 5px 5px black;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 1px 1px black;
 }
 
 .show .icon {
