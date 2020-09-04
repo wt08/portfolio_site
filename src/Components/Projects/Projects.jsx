@@ -135,7 +135,7 @@ const Projects = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598373912/Screen_Shot_2020-08-25_at_12.40.43_PM_aplgfl.png"
+              src="https://res.cloudinary.com/dgbf3yxnd/image/upload/v1599244524/Screen_Shot_2020-09-04_at_2.29.44_PM_plzgsv.png"
               alt="Forgotten App homepage"
             />
           </a>
