@@ -34,24 +34,27 @@
 
 .text {
   margin: 30px;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(64, 64, 57, 0.75);
   border-radius: 10px;
+  padding: 10px;
 }
 
 .text h3 {
   font-family: "Roboto", sans-serif;
   font-size: 22px;
+  color: white;
 }
 
 .text p {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  color: white;
 }
 
 .text a {
   text-align: left;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .text a:hover {
@@ -91,7 +94,7 @@
   .expand a {
     text-align: left;
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
   .expand a:hover {
