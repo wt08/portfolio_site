@@ -17,7 +17,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
         <h3 className="menuItem">Home</h3>
       </Link>
       <br />
-      <Link to="/#iconsConnect">
+      <Link to="#iconsConnect">
         <h3 className="menuItem">Connect</h3>
       </Link>
       <br />

@@ -13,7 +13,7 @@ const ExpandNav = () => {
         <Link to="/">
           <h3>Home</h3>
         </Link>
-        <Link to="/#iconsConnect">
+        <Link to="#iconsConnect">
           <h3>Connect</h3>
         </Link>
         <Link to="/resume">
