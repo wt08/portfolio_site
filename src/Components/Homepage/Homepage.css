@@ -8,6 +8,7 @@
 }
 
 .intro h3 {
+  font-size: 15px;
   text-align: center;
   line-height: 2;
   font-family: "Roboto", sans-serif;
@@ -21,4 +22,10 @@
 .main {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro h3 {
+    font-size: 18px;
+  }
 }
