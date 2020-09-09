@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Homepage from "./Components/Homepage/Homepage";
 import { Route } from "react-router-dom";
@@ -20,7 +20,16 @@ function App() {
           />
         )}
       />
-      <Route path="/resume" component={Resume} />
+      <Route
+        path="/resume"
+        render={(routerProps) => (
+          <Resume
+            {...routerProps}
+            menuOpen={menuOpen}
+            setMenuOpen={setMenuOpen}
+          />
+        )}
+      />
     </div>
   );
 }

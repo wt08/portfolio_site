@@ -3,11 +3,11 @@ import "./Resume.css";
 import Navigation from "../Navigation/Navigation";
 import IconsConnect from "../IconsConnect/IconsConnect";
 
-const Resume = () => {
+const Resume = ({ menuOpen, setMenuOpen }) => {
   return (
     <div>
-      <Navigation />
-      <div className="resume">
+      <Navigation menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <div className="resume" onClick={() => setMenuOpen(!menuOpen)}>
         <a
           href="https://docs.google.com/document/d/1EP6ud6yJrAhEqQt34J4tKx2GqTmaF0k6LxfrBnCZGGc/edit#heading=h.ur8vhqpa5lu3"
           target="_blank"
