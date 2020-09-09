@@ -1,15 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Russo+One&display=swap");
 
-.App {
+/* .App { */
   /* photo creds to Christopher Rusev on unsplashed https://unsplash.com/photos/Fs_Ed1Mf_Oo */
-  background: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598997366/christopher-rusev-Fs_Ed1Mf_Oo-unsplash_slujrt.jpg");
+  /* background: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598997366/christopher-rusev-Fs_Ed1Mf_Oo-unsplash_slujrt.jpg");
   background-size: 100% 100%;
   background-attachment: fixed;
+} */
+
+.App:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("https://res.cloudinary.com/dgbf3yxnd/image/upload/v1598997366/christopher-rusev-Fs_Ed1Mf_Oo-unsplash_slujrt.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .App {
     background-size: cover;
     background-position: center;
   }
-}
+} */
