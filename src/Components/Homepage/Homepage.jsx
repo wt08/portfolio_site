@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import IconsConnect from "../IconsConnect/IconsConnect";
 import Projects from "../Projects/Projects";
 import "./Homepage.css";
@@ -6,6 +6,12 @@ import Navigation from "../Navigation/Navigation";
 import Footer from "../Footer/Footer";
 
 const Homepage = ({ menuOpen, setMenuOpen }) => {
+
+  // closes mobile menu on initial page load
+  useEffect(() => {
+    setMenuOpen(false)
+  }, [])
+
   return (
     <div className="homepage">
       <div className="heading">

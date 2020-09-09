@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Resume.css";
 import Navigation from "../Navigation/Navigation";
 import IconsConnect from "../IconsConnect/IconsConnect";
 
 const Resume = ({ menuOpen, setMenuOpen }) => {
+  // closes mobile menu on initial page load
+  useEffect(() => {
+    setMenuOpen(false);
+  }, []);
+
   return (
     <div>
       <Navigation menuOpen={menuOpen} setMenuOpen={setMenuOpen} />

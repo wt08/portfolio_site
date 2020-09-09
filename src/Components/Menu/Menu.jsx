@@ -18,7 +18,9 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
       </Link>
       <br />
       <Link to="#iconsConnect">
-        <h3 className="menuItem">Connect</h3>
+        <h3 className="menuItem" onClick={() => setMenuOpen(false)}>
+          Connect
+        </h3>
       </Link>
       <br />
       <Link to="/resume">
