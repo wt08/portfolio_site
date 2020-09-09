@@ -5,13 +5,13 @@ import "./Homepage.css";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../Footer/Footer";
 
-const Homepage = () => {
+const Homepage = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className="homepage">
       <div className="heading">
-        <Navigation />
+        <Navigation menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div className="intro">
-          <div className="introMobile">
+          <div className="introMobile" onClick={() => setMenuOpen(!menuOpen)}>
             <h3>
               Hi, I'm <span>will</span>,
               <br />
@@ -23,7 +23,7 @@ const Homepage = () => {
               <br />
               Check out some of my projects below,
               <br />
-               and contact me to partner on a project.
+              and contact me to partner on a project.
             </h3>
           </div>
           <div className="introExpand">
@@ -38,7 +38,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="main">
+      <div className="main" onClick={() => setMenuOpen(!menuOpen)}>
         <Projects />
         <IconsConnect />
       </div>

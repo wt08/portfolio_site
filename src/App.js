@@ -1,13 +1,25 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 import Homepage from "./Components/Homepage/Homepage";
 import { Route } from "react-router-dom";
 import Resume from "./Components/Resume/Resume";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="App">
-      <Route exact path="/" component={Homepage} />
+      <Route
+        exact
+        path="/"
+        render={(routerProps) => (
+          <Homepage
+            {...routerProps}
+            menuOpen={menuOpen}
+            setMenuOpen={setMenuOpen}
+          />
+        )}
+      />
       <Route path="/resume" component={Resume} />
     </div>
   );

@@ -4,7 +4,6 @@
 }
 
 .intro {
-  margin-top: 150px;
   text-align: center;
 }
 
@@ -24,7 +23,8 @@
 
 .introMobile {
   text-align: left;
-  padding-left: 10px;
+  padding-left: 30px;
+  padding-top: 150px;
 }
 
 .main {
@@ -39,5 +39,6 @@
 
   .introExpand {
     display: block;
+    padding-top: 150px;
   }
 }
